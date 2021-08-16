@@ -1,0 +1,40 @@
+.home {
+  background-color: #a8a19e;
+}
+
+#home_part1 {
+  grid-column: auto / span 3;
+  grid-row: 3/5;
+}
+
+#home_part1_item h1 {
+  text-align: left;
+  font-size: calc(1rem + 2vw);
+  margin: calc(8rem + 2vw) calc(8rem + 2vw) calc(3rem + 1vw) calc(8rem + 2vw);
+  color: white;
+}
+
+#home_part1_item button {
+  background-color: white;
+  border: none;
+  width: calc(1rem + 10vw);
+  height: calc(0.5rem + 3vw);
+  border-radius: 2rem;
+  font-weight: bolder;
+  margin-left: calc(8rem + 2vw);
+}
+
+#home_part2 {
+  grid-column: 4 / span 3;
+  grid-row: 3/5;
+  overflow: hidden;
+}
+
+#Home_part2_item {
+  box-sizing: border-box;
+  color: #504d4b;
+  font-size: calc(0.7rem + 0.5vw);
+  margin: calc(8rem + 2vw);
+  text-align: left;
+  font-weight: bold;
+}

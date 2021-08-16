@@ -1,0 +1,49 @@
+#contact_main1 {
+  grid-column: auto/ span 3;
+  grid-row: 3/5;
+  background-color: #a8a19e;
+  color: white;
+}
+
+#contact_main1 h1 {
+  margin: 7rem 3rem 0rem 7rem;
+  font-size: calc(1rem + 3vw);
+}
+
+#contact_main2 {
+  grid-column: 4 / span 3;
+  grid-row: 3/5;
+  background-color: #a8a19e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact_main2 label {
+  color: white;
+  font-size: 1.3rem;
+}
+
+#contact_main2 input {
+  width: calc(1rem + 35vw);
+  height: 5%;
+  padding: 0% 2%;
+  margin: 1rem 0rem;
+}
+
+#contact_main2 textarea {
+  width: calc(1rem + 35vw);
+  padding: 2%;
+  margin: 1rem 0rem;
+}
+
+#contact_main2 button {
+  height: 3rem;
+  width: 12rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: white;
+  font-weight: 800;
+  font-size: 0.8rem;
+  float: right;
+}

@@ -1,0 +1,27 @@
+#contact_Map {
+  grid-column: auto / span 6;
+  grid-row: 5/7;
+  background-color: blue;
+  position: relative;
+}
+
+#visitus {
+  width: 30%;
+  height: 70%;
+  position: absolute;
+
+  top: 15%;
+  left: 6%;
+  background-color: F4B10C;
+  padding-left: 2rem;
+}
+
+#visitus h1 {
+  color: white;
+  font-size: calc(1rem + 1.5vw);
+}
+
+#visitus p {
+  color: white;
+  font-size: 1.5rem;
+}

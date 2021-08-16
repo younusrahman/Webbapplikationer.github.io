@@ -1,0 +1,16 @@
+.container {
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.8fr 0.8fr 2.2fr 1.2fr 0.4fr 0.4fr 0.4fr;
+  grid-template-areas:
+    "content1"
+    "content2"
+    "content3"
+    "main"
+    "about"
+    "small_boxe"
+    "footer";
+}
+
+nav {
+  display: none;
+}

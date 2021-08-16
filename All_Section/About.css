@@ -1,0 +1,72 @@
+#about {
+  background-color: #f4b10c;
+  grid-row: 5/7;
+  position: relative;
+  text-align: center;
+}
+
+#aboute_details {
+  position: absolute;
+  margin: 15rem 15rem;
+}
+
+#aboute_details h1 {
+  font-size: calc(1rem + 2vw);
+  color: white;
+}
+
+#aboute_details p {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  color: #61460a;
+}
+
+#about_box {
+  height: 35%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+
+  position: absolute;
+  top: -35%;
+}
+
+.about_box_property {
+  background-color: white;
+  height: 100%;
+  width: calc(15rem + 3vw);
+  border-radius: 0.5rem;
+  position: relative;
+  padding: 15rem 2rem 0rem 2rem;
+}
+
+.about_box_property div {
+  background-color: #caddeb;
+  height: 50%;
+  width: 80%;
+  position: absolute;
+  top: -5%;
+  border-radius: 0.3rem;
+  overflow: hidden;
+}
+
+.about_box_property img {
+  height: 10rem;
+  margin-top: 3rem;
+}
+
+#about_adult_img {
+  background-color: #f4b10c;
+}
+#about_adult_img img {
+  height: 30rem;
+  margin-top: 2rem;
+}
+
+#about_oldman_img {
+  background-color: #e87a3e;
+}
+#about_oldman_img img {
+  height: 30rem;
+  margin-top: 2rem;
+}

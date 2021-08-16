@@ -1,0 +1,55 @@
+body {
+  box-sizing: border-box;
+  margin-left: 10%;
+  margin-right: 10%;
+  scroll-behavior: smooth;
+}
+
+#contact_containt {
+  display: grid;
+  height: 250vh;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr 0.1fr 1fr 1fr 1fr 0.2fr 1fr;
+}
+
+#headPanel {
+  grid-column: auto / span 6;
+  background-color: #caddeb;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#headPanel img {
+  height: 20rem;
+  margin: 5rem 0rem 0rem 0rem;
+}
+
+#headPanel h1 {
+  font-size: 3rem;
+}
+
+#navbar {
+  grid-column: auto / span 6;
+
+  background-color: white;
+}
+
+#navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: 8d8d8d;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+#navbar a:hover {
+  color: black;
+}
